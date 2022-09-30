@@ -1,6 +1,6 @@
-<div align="center">
- <img src="images/logo.ico" height=70px />
-</div>
+<!-- <div align="center">
+ <img src="images/logo.png" height=70px />
+</div> -->
 <p align = 'center'>
  <a href='https://arunn0909.github.io/BooksWorld/'>
     <img src = "https://img.shields.io/badge/BooksWorld-4B275F?style=round" width = '20%'/></a> 
