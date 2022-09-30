@@ -16,7 +16,7 @@
 ![Forks](https://img.shields.io/github/forks/arunn0909/BooksWorld?style=flat&logo=github)
 </div>
 
-<h1 align="center">An online Booking shopping website template built with </h3>
+<h1 align="center">An online Book Store built with </h3>
 <div align="center"> 
 
 ![HTML](https://img.shields.io/badge/-HTML-3498DB?style=for-the-badge&logo=HTML5&logoColor=white)
