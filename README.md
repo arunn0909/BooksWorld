@@ -11,7 +11,7 @@
 [![Welcome to my profile](https://img.shields.io/badge/Hello,Programmer!-Welcome-blue.svg?style=flat&logo=github)](https://github.com/arunn0909)
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://arunn0909.github.io/BooksWorld/)
 <!--![Lines of code](https://img.shields.io/tokei/lines/github/arunn0909/BooksWorld?color=red&label=Lines%20of%20Code)-->
-![License](https://img.shields.io/badge/License-MIT-red.svg)
+<!-- ![License](https://img.shields.io/badge/License-MIT-red.svg) -->
 ![Stars](https://img.shields.io/github/stars/arunn0909/BooksWorld?style=flat&logo=github)
 ![Forks](https://img.shields.io/github/forks/arunn0909/BooksWorld?style=flat&logo=github)
 </div>
