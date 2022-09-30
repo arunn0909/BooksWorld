@@ -1,0 +1,21 @@
+    .show-cart li {
+    display: flex;
+  }
+  .card {
+    margin-bottom: 20px;
+  }
+  .card-img-top {
+    width: 200px;
+    height: 200px;
+    align-self: center;
+  }
+  .nav_btn{
+    /* float: right; */
+    float: inline-end;
+
+  }
+  .last{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
