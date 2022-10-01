@@ -1,6 +1,6 @@
-<!-- <div align="center">
- <img src="images/logo.png" height=70px />
-</div> -->
+<div align="center">
+ <img src="images/relogo.png" height=70px />
+</div>
 <p align = 'center'>
  <a href='https://arunn0909.github.io/BooksWorld/'>
     <img src = "https://img.shields.io/badge/BooksWorld-4B275F?style=round" width = '20%'/></a> 
@@ -66,4 +66,16 @@
     git push -u origin <your_branch_name>
     ```
 11. **Make pull request (PR)** 🚀
+
+12. To create a pull request, click on `compare and pull requests`. Please ensure you compare your feature branch to the desired branch of the repository you are supposed to make a PR to.
+
+
+13. Add appropriate title and description to your pull request explaining your changes and efforts done.
+
+
+14. Click on `Create Pull Request`.
+
+
+15. Voila! You have made a PR to the HackClubRAIT-Website. Sit back patiently and relax while your PR is reviewed
+
 
