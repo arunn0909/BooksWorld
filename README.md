@@ -67,7 +67,7 @@
     ```
 11. **Make pull request (PR)** 🚀
 
-12. To create a pull request, click on `New pull requests`. Please ensure you compare your feature branch to the desired branch of this repository you are supposed to make a PR to.
+12. To create a pull request, click on `New pull request`. Please ensure you compare your feature branch to the desired branch of this repository you are supposed to make a PR to.
 
 
 13. Add appropriate title and description to your pull request explaining your changes and efforts done.
