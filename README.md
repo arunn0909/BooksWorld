@@ -76,6 +76,6 @@
 14. Click on `Create Pull Request`.
 
 
-15. Voila! You have made a PR to the HackClubRAIT-Website. Sit back patiently and relax while your PR is reviewed
+15. Voila! You have made a PR to the BooksWorld website. Sit back patiently and relax while your PR is reviewed
 
 
