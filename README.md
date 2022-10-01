@@ -28,7 +28,7 @@
 
 ## 🎉 Getting Started
 
-1. **Fork this repository.**
+1. **Star & Fork this repository.**
 
 2. **Clone your forked copy of the project.**
    ```
