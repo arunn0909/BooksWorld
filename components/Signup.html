@@ -1,0 +1,72 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BooksWorld</title>
+    <link rel="stylesheet" type="text/css" href="Signup.css">
+ </head>
+ <body>
+    <div class="container">
+         <div class="form-box">
+            <div class="button-box">
+               <div id="btn"></div>
+            <button type="button" class="toggle-btn" onclick="login()">Login</button>
+            <button type="button" class="toggle-btn" onclick="signup()">SignUp</button>
+         </div>
+        
+         <div class="social-media">
+            <img src="fb.png">
+            <img src="instagram.png" >
+            <img src="twitter.png" >
+
+         </div>
+    
+      <form action="index.html" class="login-form" id="login">
+         <input type="text" class="form-field" placeholder="Username" required>
+         <input type="password" class="form-field" placeholder="Password" required>
+         <input type="checkbox" class="checkbox"><span>Remember Password</span>
+
+         <button type="submit" class="submit">Login</button>
+         
+      </form>
+
+      <form action="index.html" class="login-form" id="signup">
+         <input type="text" class="form-field" placeholder="Username" required>
+         <input type="email" class="form-field" placeholder="Email Address" required>
+         <input type="password" class="form-field" placeholder="Password" required>
+         <input type="checkbox" class="checkbox"><span>I Accept to the Terms & Conditions</span>
+
+         <button type="submit" class="submit">Signup</button>
+         
+      </form>
+
+   </div>  
+      
+    </div>
+
+    <script>
+      var x=document.getElementById("login");
+      var y=document.getElementById("signup");
+      var z=document.getElementById("btn");
+
+      function signup(){
+         x.style.left="-400px";
+         y.style.left="50px";
+         z.style.left="110px";
+
+
+      }
+      function login()
+      {
+         x.style.left="50px";
+         y.style.left="450px";
+         z.style.left="0";
+      }
+
+
+    </script>
+
+ </body>
+ </html>
