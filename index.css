@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.logo {
+  height: 50px;
+  width: auto;
+}
+
+footer {
+  background-color: #343a40;
+  color: rgb(228, 224, 224);
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-text {
+  font-size: 16px;
+}
+
+.reserved-text{
+    font-size: 14px;
+    margin-left: 4px;
+    color: #9A9DA0;
+}
