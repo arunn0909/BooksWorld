@@ -67,7 +67,7 @@
     ```
 11. **Make pull request (PR)** 🚀
 
-12. To create a pull request, click on `compare and pull requests`. Please ensure you compare your feature branch to the desired branch of the repository you are supposed to make a PR to.
+12. To create a pull request, click on `New pull request`. Please ensure you compare your feature branch to the desired branch of this repository you are supposed to make a PR to.
 
 
 13. Add appropriate title and description to your pull request explaining your changes and efforts done.
@@ -76,6 +76,6 @@
 14. Click on `Create Pull Request`.
 
 
-15. Voila! You have made a PR to the BooksWorld website. Sit back patiently and relax while your PR is reviewed
+15. Voila! You have made a PR to the BooksWorld website. Sit back patiently and relax while your PR is reviewed.
 
 
