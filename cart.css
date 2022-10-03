@@ -10,7 +10,6 @@
     align-self: center;
   }
   .nav_btn{
-    /* float: right; */
     float: inline-end;
 
   }
@@ -18,4 +17,26 @@
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  .total-count{
+    position: relative;
+    color: green;
+    font-weight: bold;
+    bottom:10px;
+    right: 20px;
+  }
+  .fa-cart-shopping{
+    font-size: 30px;
+    background-color: none;
+    color: white;
+
+  }
+  .fa-cart-shopping:hover{
+    background-color: none;
+
+  }
+  .cart-btn:focus {
+    outline: none;
+    box-shadow: none;
   }
