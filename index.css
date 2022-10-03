@@ -9,6 +9,34 @@
   width: auto;
 }
 
+/* genre section starts */
+#genre{
+  text-align: center;
+  background-color: palegoldenrod;
+  padding: 3% 0;
+}
+
+.genre-card{
+  border-radius: 10%;
+}
+
+.genre-img{
+  margin: 10px;
+}
+
+.genre-link{
+  text-decoration: none;
+  font-weight: 1.5rem;
+  color: black;
+}
+
+.genre-link :hover{
+  color: black;
+  text-decoration: none;
+}
+
+/* genre section ends */
+
 .light{
   --bg-clr:white;
   --bg2-clr:black;
@@ -40,6 +68,15 @@ footer {
   margin-left: 4px;
   color: #9A9DA0;
 }
+
+@media (max-width : 900px){
+  .genre-card{
+    text-align: center;
+    margin: 10px 60px 20px;
+    padding: 20px 30px;
+  }
+}
+
 
 body{
   background-color: var(--bg-clr);
@@ -112,7 +149,7 @@ input {
 }
 
 .dark .toggle .bx-sun {
-  color: #fafafa;
+  color: white;
 }
 
 .dark .toggle .bxs-moon {
@@ -126,7 +163,7 @@ input {
 
 /*----------------Add Main CSS here Prefer using CSS Variables and define them in  .light and .dark classes -------*/
 
-a,h3,div{
+a,div, #genre{
   color: var(--bg2-clr);
 }
 
@@ -195,6 +232,7 @@ a,h3,div{
 }
 
 /* Slider Part css ends */
+
 
 /* footer part css Starts*/
 footer .logof{
@@ -308,3 +346,4 @@ footer .contact .info li a:hover{
   margin-left: 40%;
 }
 /* footer part css ENDS */
+
