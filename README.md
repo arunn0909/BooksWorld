@@ -14,6 +14,7 @@
 <!-- ![License](https://img.shields.io/badge/License-MIT-red.svg) -->
 ![Stars](https://img.shields.io/github/stars/arunn0909/BooksWorld?style=flat&logo=github)
 ![Forks](https://img.shields.io/github/forks/arunn0909/BooksWorld?style=flat&logo=github)
+
 </div>
 
 <h1 align="center">An online Book Store built with </h3>
@@ -23,6 +24,13 @@
 ![CSS](https://img.shields.io/badge/-CSS-1572B6?style=for-the-badge&logo=CSS3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) 
 ![BOOTSTRAP](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap5&logoColor=white)
+
+</div>
+
+<h3 align="center">Join Our Discord Community </h3>
+<div align="center">
+
+[![Discord Badge](https://img.shields.io/badge/Discord-1DA1F2?style=plastic&logo=discord&logoColor=white&link=https://discord.com/in/ftrasvent)](https://discord.gg/7qgzbmM6)
 
 </div>
 
