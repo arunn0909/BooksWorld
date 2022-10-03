@@ -16,46 +16,18 @@
     <!-- Favicon -->
     <link rel="icon" href="images/favicon.ico">
 
-        <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Home page | Books World</title>
-    <style>
-        .w-100 {
-            height: 70vh;
-        }
+    
+    <!-- Box icons CDN Imports -->
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
 
-        .home .swiper-slide img {
-            width: 90%;
-            height: 90%;
-            background-size: cover;
-
-        }
-
-        .home .swiper {
-            color: var(--black);
-            font-size: 50px;
-            font-weight: bolder;
-            width: 90vw;
-            height: 80vh;
-            margin-top: 10px;
-            padding: 0px;
-        }
-
-        @media (max-width:760px) {
-            .home .swiper {
-             font-weight: bolder;
-             width: 90vw;
-             height: 35vh;
-             margin-top: 50px;
-             padding: 0px;
-            }
-        }
-
-    </style>
 </head>
 
 <body>
     <!-- navbar start  -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark light">
         <a class="navbar-brand " href="#"><img class="logo" src="images/logo.png" alt=""></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -74,6 +46,15 @@
                         <a class="dropdown-item" href="hindiComics/hindi.html">Hindi</a>
                 </li>
         </div>
+        <!--Dark Mode Btn-->
+        <input type="checkbox" id="toggle">
+
+        <label class="toggle" for="toggle">
+            <i class="bx bxs-sun"></i>
+            <i class="bx bx-moon"></i>
+            <span class="ball"></span>
+        </label>
+    
         <!--Search box -->
         <form class="form-inline my-2 my-lg-0" id="searchbox">
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -248,28 +229,7 @@
 
 
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-    <script>
-        const swiper = new Swiper('.swiper', {
-            autoplay: {
-                delay: 3000,
-                disableOnInteraction: false,
-            },
-            loop: true,
-
-            // If we need pagination
-            pagination: {
-                el: '.swiper-pagination',
-                clickable: true,
-            },
-
-            // Navigation arrows
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
-
-        });
-    </script>
+    <script type="text/javascript" src="index.js"></script>
 </body>
 </html>
 
