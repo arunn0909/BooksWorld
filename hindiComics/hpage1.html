@@ -10,6 +10,9 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
     integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 
+  <!-- fontawesome cdn  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <link rel="stylesheet" href="../cart.css">
 
@@ -49,9 +52,8 @@
       </form>
 
       <div class="form-inline my-2 my-lg-0">
-        <button type="button" class="btn btn-success nav_btn " data-toggle="modal" data-target="#cart">Cart (<span
-            class="total-count"></span>)</button><button class="clear-cart btn btn-danger nav_btn">Clear
-          Cart</button>
+        <button type="button" class="btn cart-btn nav_btn mx-2 " data-toggle="modal" data-target="#cart">
+          <i class="fa-solid fa-cart-shopping cart-icon"></i><span class="total-count"></span> </button>
       </div>
       <!-- <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -252,8 +254,10 @@
           <div>Total price: &#8377<span class="total-cart"></span></div>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
           <button type="button" class="btn btn-primary">Order now</button>
+          <button class="clear-cart btn btn-danger nav_btn">Clear Cart</button>
+          
         </div>
       </div>
     </div>
