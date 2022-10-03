@@ -231,22 +231,22 @@
     <div class="modal-dialog modal-lg" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
         <div class="modal-body">
+          <div class="empty-cart" id="empCart">
+            <img class="sad-cart" src="../images/cart-empty.png" alt="">
+            <h5>Cart is empty <br> <a href="">Add something</a></h5> 
+          </div>
           <table class="show-cart table">
 
           </table>
-          <div>Total price: &#8377<span class="total-cart"></span></div>
-        </div>
+          <div><div class="tp">Sub Total: &#8377<span class="total-cart"></span></div></div></div>
         <div class="modal-footer">
-          <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
-          <button type="button" class="btn btn-primary">Order now</button>
-          <button class="clear-cart btn btn-danger nav_btn">Clear Cart</button>
-          
+          <button type="button" class="btn btnOrder">Order now</button>
+          <button class="clear-cart btn btnClear nav_btn">Clear Cart</button>
         </div>
       </div>
     </div>
