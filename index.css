@@ -67,10 +67,10 @@
 }
 
 footer {
-  position: relative;
+    position: relative;
     width: 100%;
     height: auto;
-    padding: 25px 80px;
+    padding: 30px 10px 10px 50px;
     background: #212529;
     display: flex;
     justify-content: space-between;
@@ -232,28 +232,20 @@ a,div, #genre{
 
 /* Slider Part css ends */
 
-
 /* footer part css Starts*/
 footer .logof{
-  margin-top: 10%;
   height: 150px;
   width:200px;
 }
 
 footer .footer-part{
-
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
-  flex-direction: row;
+  /* flex-wrap: wrap; */
 }
 
 footer .footer-part .sec{
   margin-right: 30px;
-}
-
-footer .footer-part .sec.aboutus{
-    width:40%;
 }
 
 footer .footer-part h2{
@@ -310,7 +302,7 @@ footer .sci li a .fa{
 }
 
 footer .contact{
-  width:calc(20%);
+  /* width:calc(20%); */
   margin-right: 0 !important; 
 }
 
@@ -342,7 +334,13 @@ footer .contact .info li a:hover{
 .footer-text{
   font-size: 16px;
   color: rgb(221, 218, 218);
-  margin-left: 40%;
+  width: 100%;
+  text-align: center;
+}
+@media only screen and (max-width:700px){
+  footer .footer-part {
+    flex-direction: column;
+  }
 }
 /* footer part css ENDS */
 
