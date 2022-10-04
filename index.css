@@ -90,6 +90,9 @@ footer {
     margin: 10px 60px 20px;
     padding: 20px 30px;
   }
+  .toggle{
+    margin-top: 10px;
+  }
 }
 
 
@@ -106,6 +109,7 @@ body{
   width: 70px;
   border-radius: 50px;
   transition: .6s;
+  
 }
 
 .toggle i {
@@ -130,6 +134,7 @@ input {
 
 .signLink{
   font-weight: 600;
+  margin-right: 10px;
 }
 /*
   -- Light Mode --
@@ -189,30 +194,9 @@ a,div, #genre{
   background: var(--bg-clr);
 }
 
-/* .text-muted{
-  color: #000;
-} */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*------------------------------- Main CSS Ends ----------------------------------*/
 
-
-
-
 /*   CSS For Dark Mode Button   */
-
 
 /* Slider part css starts */
 .w-100 {
