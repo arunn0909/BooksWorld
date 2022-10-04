@@ -2,7 +2,8 @@
 * {
   margin: 0;
   padding: 0;
-}
+  box-sizing: border-box;
+}  
 
 .logo {
   height: 50px;
@@ -344,3 +345,128 @@ footer .contact .info li a:hover{
 }
 /* footer part css ENDS */
 
+/* english page */
+.btn-group{
+  min-height: 100vh;
+  width: 170px;
+  height: 70px;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "Josefin Sans", sans-serif;
+  background-color: #fdcb6e;
+  cursor: pointer;
+  box-shadow: 5px 5px 0 0;
+  transition: 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 20px;
+}
+.btn-group a{
+  position: absolute;
+  text-decoration: none;
+  color: #000;
+  z-index: 1000;
+}
+
+.btn-group::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 70px;
+  /* background: linear-gradient(to right, #ff7675, #e84393); */
+  opacity: 0;
+  transition: 0.3s;
+}
+.btn-group:hover {
+  box-shadow: -5px -5px 0 0;
+  transform: scale(0.9);
+  width: 190px;
+  height: 70px;
+  background: linear-gradient(to right, #ff7675, #e84393);
+}
+.btn-group:hover::after {
+  opacity: 1;
+}
+.btn-group::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* add to cart */
+.add-to-cart{
+  border: none;
+  font-family: 'Lato';
+  font-size: inherit;
+  color: inherit;
+  background: none;
+  cursor: pointer;
+  padding: 25px 80px;
+  display: inline-block;
+  margin: 15px 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  outline: none;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.add-to-cart:after{
+  content: '';
+  position: absolute;
+  z-index: -1;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.add-to-cart .btn:before{
+  font-family: 'FontAwesome';
+  /* speak: none; */
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+}
+
+.add-to-cart{
+  padding: 20px 20px 20px 20px;
+}
+
+.add-to-cart:before{
+  background: rgba(0,0,0,0.15);
+}
+
+.add-to-cart{
+  background: #2ecc71;
+  color: #fff;
+}
+
+.add-to-cart .btn .btn-sep:hover{
+  background: #27ae60;
+}
+
+.add-to-cart:active{
+  background: #27ae60;
+  top: 2px;
+}
+
+.add-to-cart:before{
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+  line-height: 3;
+  font-size: 140%;
+  width: 60px;}
