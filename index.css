@@ -40,25 +40,28 @@
 .light{
   --bg-clr:white;
   --bg2-clr:black;
+  --footer-clr:#212529;
 }
 
 .dark{
   --bg-clr:black;
   --bg2-clr:white;
+  --footer-clr:black;
 }
 
 
 
 footer {
-  background-color: #343a40;
-  color: rgb(228, 224, 224);
-  padding: 20px;
-  text-align: center;
+  position: relative;
+    width: 100%;
+    height: auto;
+    padding: 25px 80px;
+    background: #212529;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-.footer-text {
-  font-size: 16px;
-}
 
 .reserved-text {
   font-size: 14px;
@@ -159,9 +162,6 @@ input {
 }
 
 /*----------------Add Main CSS here Prefer using CSS Variables and define them in  .light and .dark classes -------*/
-.dark .bg-dark{
-  background-color: rgb(44, 41, 41) !important;
-}
 
 a,div, #genre{
   color: var(--bg2-clr);
@@ -232,3 +232,118 @@ a,div, #genre{
 }
 
 /* Slider Part css ends */
+
+
+/* footer part css Starts*/
+footer .logof{
+  margin-top: 10%;
+  height: 150px;
+  width:200px;
+}
+
+footer .footer-part{
+
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+footer .footer-part .sec{
+  margin-right: 30px;
+}
+
+footer .footer-part .sec.aboutus{
+    width:40%;
+}
+
+footer .footer-part h2{
+  position: relative;
+  color:rgb(221, 218, 218);
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+footer .footer-part h2:before
+{
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 60px;
+  height: 2.5px;
+  background: rgb(230, 11, 11);
+}
+
+footer p{
+  color: rgb(221, 218, 218);  
+}
+
+footer .sci{
+  margin-top: 25px;
+  display:flex;   
+}
+
+footer .sci li{
+  list-style: none;
+}
+
+footer .sci li a{
+  display: inline-block;
+  width:40px;
+  height: 40px;
+  background: var(--footer-clr);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+footer .sci li a:hover{
+  background:#f00;
+}
+
+footer .sci li a .fa{
+  color:rgb(221, 218, 218);
+  font-size:20px;
+}
+
+footer .contact{
+  width:calc(20%);
+  margin-right: 0 !important; 
+}
+
+footer .contact .info{
+  position:relative;
+}
+
+footer .contact .info li{
+  display:flex;
+  margin-bottom: 16px;
+}
+
+footer .contact .info li span :nth-child(1){
+  color: rgb(221, 218, 218);
+  font-size: 20px;
+  margin-right: 10px;
+}
+footer .contact .info li span{
+  color: rgb(221, 218, 218);
+}
+footer .contact .info li a{
+  color: rgb(221, 218, 218) ;
+  text-decoration: none;
+}
+footer .contact .info li a:hover{
+  color:rgb(221, 218, 218);
+}
+
+.footer-text{
+  font-size: 16px;
+  color: rgb(221, 218, 218);
+  margin-left: 40%;
+}
+/* footer part css ENDS */
+
