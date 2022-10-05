@@ -1,8 +1,9 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;;
 }  
 
 .logo {
@@ -68,7 +69,7 @@
 }
 
 footer {
-    position: relative;
+    /* position: relative; */
     width: 100%;
     height: auto;
     padding: 30px 10px 10px 50px;
@@ -85,16 +86,7 @@ footer {
   color: #9A9DA0;
 }
 
-@media (max-width : 900px){
-  .genre-card{
-    text-align: center;
-    margin: 10px 60px 20px;
-    padding: 20px 30px;
-  }
-  .toggle{
-    margin-top: 10px;
-  }
-}
+
 
 
 body{
@@ -234,6 +226,7 @@ a,div, #genre{
 /* Slider Part css ends */
 
 /* footer part css Starts*/
+
 footer .logof{
   height: 150px;
   width:200px;
@@ -244,9 +237,17 @@ footer .footer-part{
   justify-content: space-between;
   /* flex-wrap: wrap; */
 }
-
+.footer-part{
+  width: 100%;
+}
 footer .footer-part .sec{
   margin-right: 30px;
+}
+.aboutus{
+  width: 50%;
+}
+.contact{
+  width: 25%;
 }
 
 footer .footer-part h2{
@@ -337,11 +338,6 @@ footer .contact .info li a:hover{
   color: rgb(221, 218, 218);
   width: 100%;
   text-align: center;
-}
-@media only screen and (max-width:700px){
-  footer .footer-part {
-    flex-direction: column;
-  }
 }
 /* footer part css ENDS */
 
@@ -470,3 +466,28 @@ footer .contact .info li a:hover{
   line-height: 3;
   font-size: 140%;
   width: 60px;}
+
+
+/* media queries  */
+  @media (max-width : 900px){
+    .genre-card{
+      text-align: center;
+      margin: 10px 60px 20px;
+      padding: 20px 30px;
+    }
+    .toggle{
+      margin-top: 10px;
+    }
+    .aboutus{
+      width: 100%;
+    }
+    .contact{
+      width: 100%;
+    }
+  }
+
+  @media only screen and (max-width:700px){
+    footer .footer-part {
+      flex-direction: column;
+    }
+  }
