@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Montserrat', sans-serif;;
-}  
+  font-family: "Montserrat", sans-serif;
+}
 
 .logo {
   height: 50px;
@@ -12,84 +12,80 @@
 }
 
 /* genre section starts */
-#genre{
+#genre {
   text-align: center;
   background-color: palegoldenrod;
   padding: 3% 0;
 }
 
-.genre-card{
+.genre-card {
   border-radius: 10%;
 }
 
-.genre-img{
+.genre-img {
   margin: 10px;
 }
 
-.genre-link{
+.genre-link {
   text-decoration: none;
   font-weight: 1.5rem;
   color: black;
 }
 
-.genre-link :hover{
+.genre-link :hover {
   color: black;
   text-decoration: none;
 }
 
 /* genre section ends */
 
-.light{
-  --bg-clr:white;
-  --bg2-clr:black;
-  --footer-clr:#212529;
+.light {
+  --bg-clr: white;
+  --bg2-clr: black;
+  --footer-clr: #212529;
 }
 
-.dark{
-  --bg-clr:black;
-  --bg2-clr:white;
-  --footer-clr:black;
+.dark {
+  --bg-clr: black;
+  --bg2-clr: white;
+  --footer-clr: black;
 }
 
-.searchBox{
+.searchBox {
   width: 100%;
-  height:80px;
+  height: 80px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.form1{
+.form1 {
   width: 80%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.search-input{
+.search-input {
   width: 50%;
 }
 
 footer {
-    /* position: relative; */
-    width: 100%;
-    height: auto;
-    padding: 30px 10px 10px 50px;
-    background: #212529;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+  /* position: relative; */
+  width: 100%;
+  height: auto;
+  padding: 30px 10px 10px 50px;
+  background: #212529;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
-
 
 .reserved-text {
   font-size: 14px;
   margin-left: 4px;
-  color: #9A9DA0;
+  color: #9a9da0;
 }
 
-
-
-
-body{
+body {
   background-color: var(--bg-clr);
 }
 /*   CSS For Dark Mode Button Starts  */
@@ -101,8 +97,7 @@ body{
   justify-content: space-between;
   width: 70px;
   border-radius: 50px;
-  transition: .6s;
-  
+  transition: 0.6s;
 }
 
 .toggle i {
@@ -118,14 +113,14 @@ body{
   width: 35px;
   height: 35px;
   border-radius: 50%;
-  transition: .3s ease-out;
+  transition: 0.3s ease-out;
 }
 
 input {
   display: none;
 }
 
-.signLink{
+.signLink {
   font-weight: 600;
   margin-right: 10px;
 }
@@ -176,14 +171,16 @@ input {
 
 /*----------------Add Main CSS here Prefer using CSS Variables and define them in  .light and .dark classes -------*/
 
-a,div, #genre{
+a,
+div,
+#genre {
   color: var(--bg2-clr);
 }
 
-.swiper-pagination{
+.swiper-pagination {
   color: var(--bg-clr);
 }
-.swiper-pagination-bullet{
+.swiper-pagination-bullet {
   background: var(--bg-clr);
 }
 
@@ -200,7 +197,6 @@ a,div, #genre{
   width: 90%;
   height: 90%;
   background-size: cover;
-
 }
 
 .home .swiper {
@@ -213,7 +209,7 @@ a,div, #genre{
   padding: 0px;
 }
 
-@media (max-width:760px) {
+@media (max-width: 760px) {
   .home .swiper {
     font-weight: bolder;
     width: 90vw;
@@ -227,39 +223,38 @@ a,div, #genre{
 
 /* footer part css Starts*/
 
-footer .logof{
+footer .logof {
   height: 150px;
-  width:200px;
+  width: 200px;
 }
 
-footer .footer-part{
+footer .footer-part {
   display: flex;
   justify-content: space-between;
   /* flex-wrap: wrap; */
 }
-.footer-part{
+.footer-part {
   width: 100%;
 }
-footer .footer-part .sec{
+footer .footer-part .sec {
   margin-right: 30px;
 }
-.aboutus{
+.aboutus {
   width: 50%;
 }
-.contact{
+.contact {
   width: 25%;
 }
 
-footer .footer-part h2{
+footer .footer-part h2 {
   position: relative;
-  color:rgb(221, 218, 218);
+  color: rgb(221, 218, 218);
   font-weight: 500;
   margin-bottom: 10px;
 }
 
-footer .footer-part h2:before
-{
-  content: '';
+footer .footer-part h2:before {
+  content: "";
   position: absolute;
   bottom: -5px;
   left: 0;
@@ -268,22 +263,22 @@ footer .footer-part h2:before
   background: rgb(230, 11, 11);
 }
 
-footer p{
-  color: rgb(221, 218, 218);  
+footer p {
+  color: rgb(221, 218, 218);
 }
 
-footer .sci{
+footer .sci {
   margin-top: 25px;
-  display:flex;   
+  display: flex;
 }
 
-footer .sci li{
+footer .sci li {
   list-style: none;
 }
 
-footer .sci li a{
+footer .sci li a {
   display: inline-block;
-  width:40px;
+  width: 40px;
   height: 40px;
   background: var(--footer-clr);
   display: flex;
@@ -294,46 +289,46 @@ footer .sci li a{
   border-radius: 4px;
 }
 
-footer .sci li a:hover{
-  background:#f00;
+footer .sci li a:hover {
+  background: #f00;
 }
 
-footer .sci li a .fa{
-  color:rgb(221, 218, 218);
-  font-size:20px;
+footer .sci li a .fa {
+  color: rgb(221, 218, 218);
+  font-size: 20px;
 }
 
-footer .contact{
+footer .contact {
   /* width:calc(20%); */
-  margin-right: 0 !important; 
+  margin-right: 0 !important;
 }
 
-footer .contact .info{
-  position:relative;
+footer .contact .info {
+  position: relative;
 }
 
-footer .contact .info li{
-  display:flex;
+footer .contact .info li {
+  display: flex;
   margin-bottom: 16px;
 }
 
-footer .contact .info li span :nth-child(1){
+footer .contact .info li span :nth-child(1) {
   color: rgb(221, 218, 218);
   font-size: 20px;
   margin-right: 10px;
 }
-footer .contact .info li span{
+footer .contact .info li span {
   color: rgb(221, 218, 218);
 }
-footer .contact .info li a{
-  color: rgb(221, 218, 218) ;
+footer .contact .info li a {
+  color: rgb(221, 218, 218);
   text-decoration: none;
 }
-footer .contact .info li a:hover{
-  color:rgb(221, 218, 218);
+footer .contact .info li a:hover {
+  color: rgb(221, 218, 218);
 }
 
-.footer-text{
+.footer-text {
   font-size: 16px;
   color: rgb(221, 218, 218);
   width: 100%;
@@ -342,7 +337,7 @@ footer .contact .info li a:hover{
 /* footer part css ENDS */
 
 /* english page */
-.btn-group{
+.btn-group {
   min-height: 100vh;
   width: 170px;
   height: 70px;
@@ -358,7 +353,7 @@ footer .contact .info li a:hover{
   align-items: center;
   min-height: 20px;
 }
-.btn-group a{
+.btn-group a {
   position: absolute;
   text-decoration: none;
   color: #000;
@@ -388,16 +383,18 @@ footer .contact .info li a:hover{
 .btn-group:hover::after {
   opacity: 1;
 }
-.btn-group::before{
+.btn-group::before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
+.btn:focus {
+  box-shadow: none;
+}
 /* add to cart */
-.add-to-cart{
+.add-to-cart {
   border: none;
-  font-family: 'Lato';
+  font-family: "Lato";
   font-size: inherit;
   color: inherit;
   background: none;
@@ -415,8 +412,8 @@ footer .contact .info li a:hover{
   transition: all 0.3s;
 }
 
-.add-to-cart:after{
-  content: '';
+.add-to-cart:after {
+  content: "";
   position: absolute;
   z-index: -1;
   -webkit-transition: all 0.3s;
@@ -424,8 +421,8 @@ footer .contact .info li a:hover{
   transition: all 0.3s;
 }
 
-.add-to-cart .btn:before{
-  font-family: 'FontAwesome';
+.add-to-cart .btn:before {
+  font-family: "FontAwesome";
   /* speak: none; */
   font-style: normal;
   font-weight: normal;
@@ -436,58 +433,58 @@ footer .contact .info li a:hover{
   -webkit-font-smoothing: antialiased;
 }
 
-.add-to-cart{
+.add-to-cart {
   padding: 20px 20px 20px 20px;
 }
 
-.add-to-cart:before{
-  background: rgba(0,0,0,0.15);
+.add-to-cart:before {
+  background: rgba(0, 0, 0, 0.15);
 }
 
-.add-to-cart{
+.add-to-cart {
   background: #2ecc71;
   color: #fff;
 }
 
-.add-to-cart .btn .btn-sep:hover{
+.add-to-cart .btn .btn-sep:hover {
   background: #27ae60;
 }
 
-.add-to-cart:active{
+.add-to-cart:active {
   background: #27ae60;
   top: 2px;
 }
 
-.add-to-cart:before{
+.add-to-cart:before {
   position: absolute;
   height: 100%;
   left: 0;
   top: 0;
   line-height: 3;
   font-size: 140%;
-  width: 60px;}
-
+  width: 60px;
+}
 
 /* media queries  */
-  @media (max-width : 900px){
-    .genre-card{
-      text-align: center;
-      margin: 10px 60px 20px;
-      padding: 20px 30px;
-    }
-    .toggle{
-      margin-top: 10px;
-    }
-    .aboutus{
-      width: 100%;
-    }
-    .contact{
-      width: 100%;
-    }
+@media (max-width: 900px) {
+  .genre-card {
+    text-align: center;
+    margin: 10px 60px 20px;
+    padding: 20px 30px;
   }
+  .toggle {
+    margin-top: 10px;
+  }
+  .aboutus {
+    width: 100%;
+  }
+  .contact {
+    width: 100%;
+  }
+}
 
-  @media only screen and (max-width:700px){
-    footer .footer-part {
-      flex-direction: column;
-    }
+@media only screen and (max-width: 700px) {
+  footer .footer-part {
+    flex-direction: column;
   }
+}
