@@ -14,7 +14,7 @@
 /* genre section starts */
 #genre {
   text-align: center;
-  background-color: palegoldenrod;
+  background-color: --bg2-clr;
   padding: 3% 0;
 }
 
