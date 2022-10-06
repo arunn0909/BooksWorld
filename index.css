@@ -502,3 +502,104 @@ footer .contact .info li a:hover {
     flex-direction: column;
   }
 }
+<<<<<<< HEAD
+/* footer part css ENDS */
+
+/* home main part */
+.container .row .image{
+  width: 100%;
+  height: 410px;
+  overflow: hidden;
+}
+
+.container .row .image img{
+  width: 100%;
+  ransition: .5s;
+}
+
+.container:hover .row .image img{
+  opacity: .5;
+  transform: translateX(30%);/*100%*/
+}
+
+.container .row .details{
+  position: absolute;
+    top: 0;
+    left: 0;
+    width: 70%;/*100%*/
+    height: 100%;
+    background: #343a40;
+    transition: .5s;
+    transform-origin: left;
+    transform: perspective(1000px) rotateY(-90deg);
+}
+
+.container:hover .row  .details{
+  transform: perspective(500px) rotateY(0deg);
+}
+
+.container .row .details .center{
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top:2%;
+  padding-bottom:2%;
+  text-align: center;
+  background: rgb(252, 249, 249);
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.container .row .details .center h1{
+  margin: 0;
+  padding: 0;
+  color: #f02424;
+  line-height: 20px;
+  font-family: 'Alkalami', serif;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.container .row .details .center h1 span{
+  font-size: 14px;
+  color: #262626;
+  font-family: 'Alkalami', serif;
+}
+
+.container .row .details .center p{
+  margin: 10px 0;
+  padding: 0;
+  color: #262626;
+  font-family: 'Alkalami', serif;
+}
+
+.container .row .details .center ul{
+  margin: 10px auto 0;
+  padding: 0;
+  display: table;
+  font-family: 'Alkalami', serif;
+}
+
+.container .row .details .center ul li{
+  list-style: none;
+  margin: 0 5px;
+  float: left;
+  font-family: 'Alkalami', serif;
+}
+
+.container .row .details .center ul li a{
+  display: block;
+  background: #262626;
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  transform: .5s;
+}
+.container .row .details .center ul li a:hover{
+  background: #ef2b2b;
+}
+
+=======
+>>>>>>> 482183ff54617e2d6ac65fefd7437fb0626942c0
