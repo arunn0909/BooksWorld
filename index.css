@@ -5,6 +5,10 @@
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
 }
+:root
+{
+  --transition: all 800ms ease;
+}
 
 .logo {
   height: 50px;
@@ -31,6 +35,7 @@
   transform: scale(1.05);
   box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
   box-shadow: none;
+  
 
 }
 
@@ -305,6 +310,7 @@ footer .sci li a {
 
 footer .sci li a:hover {
   background: #f00;
+  transition: var(--transition);
 }
 
 footer .sci li a .fa {
@@ -502,7 +508,6 @@ footer .contact .info li a:hover {
     flex-direction: column;
   }
 }
-<<<<<<< HEAD
 /* footer part css ENDS */
 
 /* home main part */
@@ -598,8 +603,6 @@ footer .contact .info li a:hover {
   transform: .5s;
 }
 .container .row .details .center ul li a:hover{
-  background: #ef2b2b;
+  background: #ef2b2b;  
 }
 
-=======
->>>>>>> 482183ff54617e2d6ac65fefd7437fb0626942c0
