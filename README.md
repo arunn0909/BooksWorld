@@ -99,7 +99,7 @@
 ## Thanks to all Contributors <a name = "contributors"></a>
 
 <a href="https://github.com/arunn0909/BooksWorld/graphs/contributors"> 
-<img src="https://contrib.rocks/preview?repo=arunn0909%2FBooksWorld" /> 
+<img src="https://contrib.rocks/image?repo=arunn0909/BooksWorld" /> 
 </a>
 
 ## Support
