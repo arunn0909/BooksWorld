@@ -5,6 +5,9 @@
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
 }
+:root {
+  --transition: all 800ms ease;
+}
 
 .logo {
   height: 50px;
@@ -303,6 +306,7 @@ footer .sci li a {
 
 footer .sci li a:hover {
   background: #f00;
+  transition: var(--transition);
 }
 
 footer .sci li a .fa {
