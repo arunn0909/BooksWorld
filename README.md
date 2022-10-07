@@ -1,5 +1,15 @@
+
+<h3 align="center">
+    <a href="https://hacktoberfest.com/">
+        <b style="font-size:4vw">🎊 HacktoberFest - 2022 🎉</b>
+    </a>
+</h3>
+<p align="center"><img src="images/hactoberfest.png"></p>
+<br>
+<hr>
+<br>
 <div align="center">
- <img src="images/relogo.png" height=70px />
+ <img src="images/readmelogo.jpeg" height=70px />
 </div>
 <p align = 'center'>
  <a href='https://arunn0909.github.io/BooksWorld/'>
@@ -86,4 +96,6 @@
 
 15. Voila! You have made a PR to the BooksWorld website. Sit back patiently and relax while your PR is reviewed.
 
+## Support
 
+   If you like this project , please consider it giving a ⭐️ . It will help us to grow and improve this project and help others to find it . 
