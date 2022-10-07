@@ -30,7 +30,8 @@
 
 </head>
 
-<body>
+<body onload="setTimeout(() => {dismissAlert();}, 3000)">
+    
     <!-- navbar start  -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark light">
         <a class="navbar-brand " href="#"><img class="logo" src="images/logo.png" alt=""></a>
@@ -67,12 +68,14 @@
     </nav>
     <!-- navbar ends  -->
     <!-- alert starts  -->
-    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+    <div id="alertContainer">
+    <div class="alert alert-warning alert-dismissible fade show" id = 'alert' role="alert">
         <strong>Holy guacamole!</strong> You should check in on some of those fields below.
         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
             <span aria-hidden="true">&times;</span>
         </button>
     </div>
+</div>
     <!-- search begins  -->
     <div class="searchBox">
     <form class="form1 my-2 my-lg-0" id="searchbox">

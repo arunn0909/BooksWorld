@@ -53,3 +53,8 @@ toggle.addEventListener("change", () => {
     }
     
 });
+
+function dismissAlert(){
+    let alert = document.getElementById('alertContainer');
+    alert.innerHTML = ` `;
+}
