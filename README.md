@@ -95,6 +95,12 @@
 
 
 15. Voila! You have made a PR to the BooksWorld website. Sit back patiently and relax while your PR is reviewed.
+16. 
+## Thanks to all Contributors <a name = "contributors"></a>
+
+<a href="https://github.com/arunn0909/BooksWorld/graphs/contributors"> 
+<img src="https://contrib.rocks/image?repo=arunn0909/BooksWorld" /> 
+</a>
 
 ## Support
 
