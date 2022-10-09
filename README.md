@@ -94,8 +94,7 @@
 14. Click on `Create Pull Request`.
 
 
-15. Voila! You have made a PR to the BooksWorld website. Sit back patiently and relax while your PR is reviewed.
-16. 
+15. Voila! You have made a PR to the BooksWorld website. Sit back patiently and relax while your PR is reviewed. 
 ## Thanks to all Contributors <a name = "contributors"></a>
 
 <a href="https://github.com/arunn0909/BooksWorld/graphs/contributors"> 
@@ -104,4 +103,4 @@
 
 ## Support
 
-   If you like this project , please consider it giving a ⭐️ . It will help us to grow and improve this project and help others to find it . 
+   ## If you like this project , please consider it giving a ⭐️ . It will help us to grow and improve this project and help others to find it . 
