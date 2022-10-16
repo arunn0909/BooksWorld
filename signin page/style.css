@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
 body{
     overflow: hidden;
+    background-color: --bg-clr;
 }
+
 .login{
     padding: 8em 10em;
     padding-right: 0em;
