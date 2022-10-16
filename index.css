@@ -83,6 +83,7 @@
   width: 50%;
 }
 
+
 footer {
   /* position: relative; */
   width: 100%;
@@ -160,6 +161,11 @@ input {
 .light .toggle .ball {
   background: #151d2a;
 }
+
+.bg-light{
+  background-color: var(--bg-clr);
+}
+
 
 /*
   -- Dark Mode --
