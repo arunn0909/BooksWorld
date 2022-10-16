@@ -1,10 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
 }
+
 :root {
   --transition: all 800ms ease;
 }
@@ -73,12 +75,14 @@
   align-items: center;
   justify-content: center;
 }
+
 .form1 {
   width: 80%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .search-input {
   width: 50%;
 }
@@ -104,6 +108,7 @@ footer {
 body {
   background-color: var(--bg-clr);
 }
+
 /*   CSS For Dark Mode Button Starts  */
 
 .toggle {
@@ -138,8 +143,15 @@ input {
 
 .signLink {
   font-weight: 600;
-  margin-right: 10px;
+  margin-right: 15px;
+  color: #b1a7a4;
 }
+
+.signLink:hover {
+  font-weight: 600;
+  color: rgb(255, 255, 255) !important;
+}
+
 /*
   -- Light Mode --
 */
@@ -162,7 +174,7 @@ input {
   background: #151d2a;
 }
 
-.bg-light{
+.bg-light {
   background-color: var(--bg-clr);
 }
 
@@ -201,6 +213,7 @@ div,
 .swiper-pagination {
   color: var(--bg-clr);
 }
+
 .swiper-pagination-bullet {
   background: var(--bg-clr);
 }
@@ -254,15 +267,19 @@ footer .footer-part {
   justify-content: space-between;
   /* flex-wrap: wrap; */
 }
+
 .footer-part {
   width: 100%;
 }
+
 footer .footer-part .sec {
   margin-right: 30px;
 }
+
 .aboutus {
   width: 50%;
 }
+
 .contact {
   width: 25%;
 }
@@ -339,13 +356,16 @@ footer .contact .info li span :nth-child(1) {
   font-size: 20px;
   margin-right: 10px;
 }
+
 footer .contact .info li span {
   color: rgb(221, 218, 218);
 }
+
 footer .contact .info li a {
   color: rgb(221, 218, 218);
   text-decoration: none;
 }
+
 footer .contact .info li a:hover {
   color: rgb(221, 218, 218);
 }
@@ -356,6 +376,7 @@ footer .contact .info li a:hover {
   width: 100%;
   text-align: center;
 }
+
 /* footer part css ENDS */
 
 /* english page */
@@ -375,6 +396,7 @@ footer .contact .info li a:hover {
   align-items: center;
   min-height: 20px;
 }
+
 .btn-group a {
   position: absolute;
   text-decoration: none;
@@ -395,6 +417,7 @@ footer .contact .info li a:hover {
   opacity: 0;
   transition: 0.3s;
 }
+
 .btn-group:hover {
   box-shadow: -5px -5px 0 0;
   transform: scale(0.9);
@@ -402,17 +425,21 @@ footer .contact .info li a:hover {
   height: 70px;
   background: linear-gradient(to right, #ff7675, #e84393);
 }
+
 .btn-group:hover::after {
   opacity: 1;
 }
+
 .btn-group::before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 .btn:focus {
   box-shadow: none;
 }
+
 /* add to cart */
 .add-to-cart {
   border: none;
@@ -494,12 +521,15 @@ footer .contact .info li a:hover {
     margin: 10px 60px 20px;
     padding: 20px 30px;
   }
+
   .toggle {
     margin-top: 10px;
   }
+
   .aboutus {
     width: 100%;
   }
+
   .contact {
     width: 100%;
   }
@@ -510,6 +540,7 @@ footer .contact .info li a:hover {
     flex-direction: column;
   }
 }
+
 /* footer part css ENDS */
 
 /* home main part */
@@ -526,14 +557,16 @@ footer .contact .info li a:hover {
 
 .container:hover .row .image img {
   opacity: 0.5;
-  transform: translateX(30%); /*100%*/
+  transform: translateX(30%);
+  /*100%*/
 }
 
 .container .row .details {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%; /*100%*/
+  width: 100%;
+  /*100%*/
   height: 100%;
   background: #343a40;
   transition: 0.5s;
@@ -604,46 +637,47 @@ footer .contact .info li a:hover {
   text-align: center;
   transform: 0.5s;
 }
+
 .container .row .details .center ul li a:hover {
   background: #ef2b2b;
 }
 
-  /* scroll to top  */
-  html {
-    scroll-behavior: smooth;
-  }
+/* scroll to top  */
+html {
+  scroll-behavior: smooth;
+}
 
-  #scroll-top {
-    height: 60px;
-    width: 60px;
-    background-color: white;
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    z-index: 100;
-    cursor: pointer;
-    border-radius: 6px;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.336);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transform: scale(0.9);
-    transition: all 0.3s ease-in-out;
+#scroll-top {
+  height: 60px;
+  width: 60px;
+  background-color: white;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 100;
+  cursor: pointer;
+  border-radius: 6px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.336);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scale(0.9);
+  transition: all 0.3s ease-in-out;
 
-  }
+}
 
-  #scroll-top svg {
-    width: 50%;
-    pointer-events: none;
-    color: black;
-  }
+#scroll-top svg {
+  width: 50%;
+  pointer-events: none;
+  color: black;
+}
 
-  #scroll-top:hover {
-    transform: scale(1);
-  }
+#scroll-top:hover {
+  transform: scale(1);
+}
 
-  #scroll-top a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+#scroll-top a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
