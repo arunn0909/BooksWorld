@@ -22,7 +22,12 @@
   background-color: --bg2-clr;
   padding: 3% 0;
 }
-
+.genre-link img{
+  width: 130px;
+  height: 110px;
+  border-radius: 23px;
+  margin: 10px 0px 0px 0px;
+}
 .genre-card {
   border-radius: 10%;
   background: #fff;
@@ -40,8 +45,7 @@
 }
 
 .genre-img {
-  margin: 10px;
-  height: 100px;
+  /* margin: 10px; */
 }
 
 .genre-link {
