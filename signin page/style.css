@@ -196,3 +196,24 @@ body{
         margin-top: 60%;
     }
 }
+
+/*------------- Custom Scrollbar------------------*/
+::-webkit-scrollbar{
+    width: 10px;
+
+}
+::-webkit-scrollbar-thumb{
+    background: #e75656;
+    border-radius: 3px;
+}
+::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 5px rgb(140, 106, 44); 
+    background-color: rgb(31, 30, 30);
+}
+::-webkit-scrollbar-thumb:hover{
+    background: #de3608;
+    border-radius: 3px;
+}
+::-webkit-scrollbar:hover{
+    width: 15px;
+}
