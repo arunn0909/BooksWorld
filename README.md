@@ -4,7 +4,7 @@
         <b style="font-size:4vw">🎊 HacktoberFest - 2023 🎉</b>
     </a>
 </h3>
-<p align="center"><img src="images/hactoberfest.png"></p>
+<p align="center"><img src="https://dagshub.com/blog/content/images/2023/09/hf10_banner_1032x600.png"></p>
 <br>
 <hr>
 <br>
