@@ -1,7 +1,7 @@
 
 <h3 align="center">
     <a href="https://hacktoberfest.com/">
-        <b style="font-size:4vw">🎊 HacktoberFest - 2022 🎉</b>
+        <b style="font-size:4vw">🎊 HacktoberFest - 2023 🎉</b>
     </a>
 </h3>
 <p align="center"><img src="images/hactoberfest.png"></p>
