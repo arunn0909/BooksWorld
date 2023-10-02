@@ -440,7 +440,7 @@ footer .contact .info li a:hover {
   font-weight: bold;
   font-size: 20px;
   font-family: "Josefin Sans", sans-serif;
-  background-color: #fdcb6e;
+  background-color: blue;
   cursor: pointer;
   box-shadow: 5px 5px 0 0;
   transition: 0.3s;
@@ -476,7 +476,7 @@ footer .contact .info li a:hover {
   transform: scale(0.9);
   width: 190px;
   height: 70px;
-  background: linear-gradient(to right, #ff7675, #e84393);
+/*   background: linear-gradient(to right, #ff7675, #e84393); */
 }
 
 .btn-group:hover::after {
